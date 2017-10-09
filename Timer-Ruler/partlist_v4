@@ -1,0 +1,41 @@
+Partlist
+
+Exported from Timer-Ruler_v4.sch at 28.11.2015 13:25
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value           Device                           Package         Library                                         Sheet
+
+C1       22pF            C-EUC0603                        C0603           resistor                                        1
+C2       22pF            C-EUC0603                        C0603           resistor                                        1
+G1       CH291-1220LF    CH291-1220LF                     CH291-1220LF    battery                                         1
+JP1                      PINHD-2X3                        2X03            pinhead                                         1
+JP2                      PINHD-1X2                        1X02            pinhead                                         1
+LED1                     LEDCHIP-LED0603                  CHIP-LED0603    led                                             1
+LED2                     LEDCHIP-LED0603                  CHIP-LED0603    led                                             1
+LED3                     LEDCHIP-LED0603                  CHIP-LED0603    led                                             1
+LED4                     LEDCHIP-LED0603                  CHIP-LED0603    led                                             1
+LED5                     LEDCHIP-LED0603                  CHIP-LED0603    led                                             1
+LED6                     LEDCHIP-LED0603                  CHIP-LED0603    led                                             1
+LED7                     LEDCHIP-LED0603                  CHIP-LED0603    led                                             1
+LED8                     LEDCHIP-LED0603                  CHIP-LED0603    led                                             1
+LED9                     LEDCHIP-LED0603                  CHIP-LED0603    led                                             1
+R1       68R             R-EU_R0603                       R0603           resistor                                        1
+R2       68R             R-EU_R0603                       R0603           resistor                                        1
+R3       68R             R-EU_R0603                       R0603           resistor                                        1
+R4       68R             R-EU_R0603                       R0603           resistor                                        1
+R5       68R             R-EU_R0603                       R0603           resistor                                        1
+R6       47R             R-EU_R0603                       R0603           resistor                                        1
+R7       47R             R-EU_R0603                       R0603           resistor                                        1
+R8       47R             R-EU_R0603                       R0603           resistor                                        1
+R9       47R             R-EU_R0603                       R0603           resistor                                        1
+R10      220R            R-EU_R0603                       R0603           resistor                                        1
+S1       431151015826    431151015826                     431181015816    Wurth_Elektronik_Electromechanic_Switchs_rev15b 1
+S2       431151015826    431151015826                     431181015816    Wurth_Elektronik_Electromechanic_Switchs_rev15b 1
+S3       431151015826    431151015826                     431181015816    Wurth_Elektronik_Electromechanic_Switchs_rev15b 1
+S4       431151015826    431151015826                     431181015816    Wurth_Elektronik_Electromechanic_Switchs_rev15b 1
+SW1                      DPDT-EG1390                      EG1390          adafruit                                        1
+U1       ATMEGA328P_TQFP ATMEGA328P_TQFP                  TQFP32-08       SparkFun-DigitalIC                              1
+Y1                       CRYSTALCRYSTAL-SMD-5X3-12.288MHZ CRYSTAL-SMD-5X3 SparkFun-FreqCtrl                               1
