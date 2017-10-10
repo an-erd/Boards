@@ -836,12 +836,6 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="+3V3" urn="urn:adsk.eagle:symbol:26950/1" library_version="1">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
@@ -861,19 +855,6 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="VCC" symbol="VCC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+3V3" urn="urn:adsk.eagle:component:26981/1" prefix="+3V3" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="+3V3" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -4380,7 +4361,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X1" library="adafruit" deviceset="XTAL" device="NX5032" value="2MHz"/>
-<part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -4414,7 +4394,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="LED12" library="microbuilder" deviceset="LED" device="0805" value="APT2012SECK"/>
 <part name="R14" library="microbuilder" deviceset="RESISTOR" device="0805" value="47"/>
 <part name="U1" library="CR2032-SnapDragon" deviceset="CR2032-SNAPDRAGON" device="CR2032"/>
-<part name="C8" library="microbuilder" deviceset="CAP_CERAMIC" device="0805" value="0.1uF"/>
+<part name="C8" library="microbuilder" deviceset="CAP_CERAMIC" device="0805" value="1uF"/>
 <part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="0805" value="0.1uF"/>
 <part name="C4" library="microbuilder" deviceset="CAP_CERAMIC" device="0805" value="0.1uF"/>
 <part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="0805" value="0.1uF"/>
@@ -4451,7 +4431,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <instance part="GND2" gate="1" x="20.32" y="5.08"/>
 <instance part="GND3" gate="1" x="-2.54" y="40.64" rot="R270"/>
 <instance part="X1" gate="G$1" x="17.78" y="40.64" rot="R90"/>
-<instance part="+3V1" gate="G$1" x="-5.08" y="58.42"/>
 <instance part="GND4" gate="1" x="-5.08" y="45.72"/>
 <instance part="GND5" gate="1" x="-33.02" y="106.68"/>
 <instance part="P+2" gate="VCC" x="-45.72" y="132.08"/>
@@ -4793,15 +4772,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="C1" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="UCAP"/>
-<pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<wire x1="27.94" y1="55.88" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
-<junction x="-5.08" y="55.88"/>
-<pinref part="C8" gate="G$1" pin="P$1"/>
-</segment>
-</net>
 <net name="AREF" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="AREF"/>
@@ -5082,6 +5052,13 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="S3" gate="1" pin="O"/>
 <wire x1="-35.56" y1="27.94" x2="-35.56" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="35.56" x2="-33.02" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="UCAP"/>
+<wire x1="27.94" y1="55.88" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 </nets>
