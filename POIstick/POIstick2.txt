@@ -1,0 +1,35 @@
+Stückliste exportiert aus C:/Users/andrerdm/Documents/eagle/Boards/POIstick/POIstick2.sch am 27.10.2017 13:56
+
+Qty Value                          Device                         Package                 Parts                                                Description                                                          
+1                                  DIODESOD-123                   SOD-123                 D13                                                  Diode                                                                
+1                                  JST_2PIN-THM                   JST-PH-2-THM            POWER                                                JST 2-Pin Connectors of various flavors                              
+1                                  SWITCH_SPDT                    SPDT_SMT_SSSS811101     EN                                                   Switch - SPDT                                                        
+1                                  USBMINIB                       USB-MINIB               CN1                                                  USB Connectors                                                       
+4   0.1uF                          C-EUC0603K                     C0603K                  C2, C3, C4, C21                                      CAPACITOR, European symbol                                           
+3   100k                           RESISTOR0603                   0603                    R11, R14, R16                                        Resistors                                                            
+9   10k                            RESISTOR0603                   0603                    R5, R6, R7, R8, R9, R10, R13, R17, R18               Resistors                                                            
+5   10uF                           C-EUC0603K                     C0603K                  C9, C10, C11, C14, C22                               CAPACITOR, European symbol                                           
+1   10uF                           CAP_TANTALUMA/3216_REFLOW      EIA3216-18/A-R          C6                                                   Tantalum Capacitors                                                  
+2   18pF                           C-EUC0603K                     C0603K                  C1, C7                                               CAPACITOR, European symbol                                           
+1   1k                             RESISTOR0603                   0603                    R12                                                  Resistors                                                            
+3   1uF                            C-EUC0603K                     C0603K                  C5, C12, C13                                         CAPACITOR, European symbol                                           
+2   22                             RESISTOR0603                   0603                    R1, R2                                               Resistors                                                            
+2   220mA/50V/3.5O                 MOSFET-NCH-BSS138              SOT23-3                 Q1, Q2                                               N-channel MOSFETs                                                    
+1   3.3V                           V_REG_AP2112K-3.3V             SOT23-5                 U3                                                   AP2112 - 600mA CMOS LDO Regulator w/ Enable                          
+1   309K                           RESISTOR0603                   0603                    R4                                                   Resistors                                                            
+1   4.7uF                          C-EUC0603K                     C0603K                  C8                                                   CAPACITOR, European symbol                                           
+1   4.7uH                          WE-TPC-744031004_3816          WE-TPC_3816             L1                                                   Shielded Tiny Power Inductor WE-TPC                                  
+2   431151015826                   431151015826                   431181015816            SW1, SW2                                             WS-TSS-5x5 mm SMD Tact Switch with ground terminal, 4 pins           
+1   47                             RESISTOR0603                   0603                    R15                                                  Resistors                                                            
+1   500mA                          PTC1206                        1206                    PTCFUSE                                              PTC (Resettable Fuse)                                                
+1   8MHz                           XTALNX5032                     NX5032                  X1                                                   Low cost SMT crystals, no capacitors included                        
+1   976K                           RESISTOR0603                   0603                    R3                                                   Resistors                                                            
+10  APA1025050                     APA1025050                     APA102_5050             U$4, U$5, U$6, U$7, U$8, U$9, U$10, U$11, U$12, U$13 APA102C 5050 RGB LED                                                 
+1   APT2012SECK                    LED0603                        CHIPLED_0603            LED13                                                LED                                                                  
+1   ATMEGA32U4-AU                  ATMEGA32U4-AU                  TQFP44                  U$1                                                  http://www.ladyada.net/library/eagle                                 
+1   LIS3DH                         LIS3DH                         LGA-16-3X3              U2                                                   ST Microelectronics LIS3DH 3-Axis +/-2/4/8/16g SPI/I2C Accelerometer 
+1   MCP1623/24                     MCP1623/24                     SOT95P300X120-6N        U$2                                                  IC, BOOST, REG, PWM/PFM, SOT-23-6                                    
+1   MCP73831/OT                    MCP73831/OT                    SOT23-5L                IC1                                                  MCP73831/2                                                           
+1   MOMENTARY-SWITCH-SPST-SMD-12MM MOMENTARY-SWITCH-SPST-SMD-12MM TACTILE_SWITCH_SMD_12MM S1                                                   Momentary Switch (Pushbutton) - SPST                                 
+1   Orange  APT2012SECK            LED0603                        CHIPLED_0603            CHG                                                  LED                                                                  
+1   PTR1B1,27                      PTR1B1,27                      B1,27                   AREF1                                                TEST PIN                                                             
